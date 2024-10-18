@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Requests</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="icon-group">
+            <div class="icon-large">
+                <i class="fas fa-chart-pie"></i>
+            </div>
+            <div class="icon-with-title">
+                <i class="fas fa-tachometer-alt"></i>
+                <span>Dashboard</span>
+                <ul class="dropdown">
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Analytics</a></li>
+                    <li><a href="#">Performance</a></li>
+                </ul>
+            </div>
+            <div class="icon-with-title-1">
+                <i class="fas fa-file-invoice-dollar"></i>
+                <span>Financial Requests</span>
+                <ul class="dropdown">
+                    <li><a href="#">New Request</a></li>
+                    <li><a href="#">Pending</a></li>
+                    <li><a href="#">History</a></li>
+                </ul>
+            </div>
+            <div class="icon-with-title">
+                <i class="fas fa-credit-card"></i>
+                <span>Payments</span>
+                <ul class="dropdown">
+                    <li><a href="#">Invoices</a></li>
+                    <li><a href="#">Completed</a></li>
+                    <li><a href="#">Failed</a></li>
+                </ul>
+            </div>
+            <div class="icon-with-title">
+                <i class="fas fa-users"></i>
+                <span>Customers</span>
+                <ul class="dropdown">
+                    <li><a href="#">All Customers</a></li>
+                    <li><a href="#">New Customer</a></li>
+                    <li><a href="#">Groups</a></li>
+                </ul>
+            </div>  
+            <div class="icon-with-title">
+                <i class="fas fa-box"></i>
+                <span>Products</span>
+                <ul class="dropdown">
+                    <li><a href="#">All Products</a></li>
+                    <li><a href="#">New Product</a></li>
+                    <li><a href="#">Categories</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="requests">
+        <h1>Financial Requests</h1>
+        <div class="words">
+            <span class="blue">Home</span>
+            <i class="fa-solid fa-angle-right"></i>
+            <span class="blue">Financial Requests</span>
+            <i class="fa-solid fa-angle-right"></i>
+            <span>Show</span>
+        </div>
+    </div>
+    
+    <div class="table-check">
+        <table>
+            <thead>
+                <tr class="no-hover">
+                <td colspan="12" class="row"> <button class="add-new">
+                    <i class="fa-solid fa-heart"></i>
+                </button>
+                    <a href="Index2.html" class="add-new">
+                        + Add New
+                    </a>
+                </td>
+            </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <th>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="checkbox" />
+                            <span></span>
+                        </label>
+                    </th>
+                    <th>Customer</th>
+                    <th>Inv. Date</th>
+                    <th>Due Date</th>
+                    <th>Inv. Code</th>
+                    <th>S.O. Code</th>
+                    <th>Reference</th>
+                    <th>Total</th>
+                    <th>Payment</th>
+                    <th>Balance</th>
+                    <th colspan="2">Status</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="checkbox" />
+                            <span></span>
+                        </label>
+                    </td>
+                    <td>Amira Ashraf</td>
+                    <td>28/8/2024</td>
+                    <td>4/9/2024</td>
+                    <td>INV-1738</td>
+                    <td>SO-04892</td>
+                    <td>CX-887 ALC II Eman Ibrahim II La Vista</td>
+                    <td>74,955 EGP</td>
+                    <td>75,000 EGP</td>
+                    <td>45 EGP</td>
+                    <td class="status">overpaid</td>
+                    <td><div class="menu">
+                        <span class="dots">...</span>
+                        <div class="menu-content">
+                            <a href="#"><i class="fa-solid fa-pen-to-square"></i>Edit</a>
+                            <a href="#"><i class="fa-solid fa-clone"></i>Clone</a>
+                            <a href="#" class="delete"><i class="fa-solid fa-trash"></i>Delete</a>
+                        </div>
+                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="checkbox" />
+                            <span></span>
+                        </label>
+                    </td>
+                    <td>Amira Ashraf</td>
+                    <td>28/8/2024</td>
+                    <td>4/9/2024</td>
+                    <td>INV-1738</td>
+                    <td>SO-04892</td>
+                    <td>CX-887 ALC II Eman Ibrahim II La Vista</td>
+                    <td>74,955 EGP</td>
+                    <td>75,000 EGP</td>
+                    <td>45 EGP</td>
+                    <td class="status">overpaid</td>
+                    <td><div class="menu">
+                        <span class="dots">...</span>
+                        <div class="menu-content">
+                            <a href="#"><i class="fa-solid fa-pen-to-square"></i>Edit</a>
+                            <a href="#"><i class="fa-solid fa-clone"></i>Clone</a>
+                            <a href="#" class="delete"><i class="fa-solid fa-trash"></i>Delete</a>
+                        </div>
+                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="checkbox" />
+                            <span></span>
+                        </label>
+                    </td>
+                    <td>Amira Ashraf</td>
+                    <td>28/8/2024</td>
+                    <td>4/9/2024</td>
+                    <td>INV-1738</td>
+                    <td>SO-04892</td>
+                    <td>CX-887 ALC II Eman Ibrahim II La Vista</td>
+                    <td>74,955 EGP</td>
+                    <td>75,000 EGP</td>
+                    <td>45 EGP</td>
+                    <td class="status">overpaid</td>
+                    <td><div class="menu">
+                        <span class="dots">...</span>
+                        <div class="menu-content">
+                            <a href="#"><i class="fa-solid fa-pen-to-square"></i>Edit</a>
+                            <a href="#"><i class="fa-solid fa-clone"></i>Clone</a>
+                            <a href="#" class="delete"><i class="fa-solid fa-trash"></i>Delete</a>
+                        </div>
+                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="checkbox" />
+                            <span></span>
+                        </label>
+                    </td>
+                    <td>Amira Ashraf</td>
+                    <td>28/8/2024</td>
+                    <td>4/9/2024</td>
+                    <td>INV-1738</td>
+                    <td>SO-04892</td>
+                    <td>CX-887 ALC II Eman Ibrahim II La Vista</td>
+                    <td>74,955 EGP</td>
+                    <td>75,000 EGP</td>
+                    <td>45 EGP</td>
+                    <td class="status">overpaid</td>
+                    <td><div class="menu">
+                        <span class="dots">...</span>
+                        <div class="menu-content">
+                            <a href="#"><i class="fa-solid fa-pen-to-square"></i>Edit</a>
+                            <a href="#"><i class="fa-solid fa-clone"></i>Clone</a>
+                            <a href="#" class="delete"><i class="fa-solid fa-trash"></i>Delete</a>
+                        </div>
+                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="checkbox" />
+                            <span></span>
+                        </label>
+                    </td>
+                    <td>Amira Ashraf</td>
+                    <td>28/8/2024</td>
+                    <td>4/9/2024</td>
+                    <td>INV-1738</td>
+                    <td>SO-04892</td>
+                    <td>CX-887 ALC II Eman Ibrahim II La Vista</td>
+                    <td>74,955 EGP</td>
+                    <td>75,000 EGP</td>
+                    <td>45 EGP</td>
+                    <td class="status">overpaid</td>
+                    <td><div class="menu">
+                        <span class="dots">...</span>
+                        <div class="menu-content">
+                            <a href="#"><i class="fa-solid fa-pen-to-square"></i>Edit</a>
+                            <a href="#"><i class="fa-solid fa-clone"></i>Clone</a>
+                            <a href="#" class="delete"><i class="fa-solid fa-trash"></i>Delete</a>
+                        </div>
+                    </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <footer>
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </footer>
+      
+    <script src="js/all.min.js"></script>
+</body>
+</html>

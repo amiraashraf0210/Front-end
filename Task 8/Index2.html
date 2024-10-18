@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Requests</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="icon-group">
+        <div class="icon-large">
+            <i class="fas fa-chart-pie"></i>
+        </div>
+        <div class="icon-with-title">
+            <i class="fas fa-tachometer-alt"></i>
+            <span>Dashboard</span>
+            <ul class="dropdown">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Analytics</a></li>
+                <li><a href="#">Performance</a></li>
+            </ul>
+        </div>
+        <div class="icon-with-title-1">
+            <i class="fas fa-file-invoice-dollar"></i>
+            <span>Financial Requests</span>
+            <ul class="dropdown">
+                <li><a href="#">New Request</a></li>
+                <li><a href="#">Pending</a></li>
+                <li><a href="#">History</a></li>
+            </ul>
+        </div>
+        <div class="icon-with-title">
+            <i class="fas fa-credit-card"></i>
+            <span>Payments</span>
+            <ul class="dropdown">
+                <li><a href="#">Invoices</a></li>
+                <li><a href="#">Completed</a></li>
+                <li><a href="#">Failed</a></li>
+            </ul>
+        </div>
+        <div class="icon-with-title">
+            <i class="fas fa-users"></i>
+            <span>Customers</span>
+            <ul class="dropdown">
+                <li><a href="#">All Customers</a></li>
+                <li><a href="#">New Customer</a></li>
+                <li><a href="#">Groups</a></li>
+            </ul>
+        </div>  
+        <div class="icon-with-title">
+            <i class="fas fa-box"></i>
+            <span>Products</span>
+            <ul class="dropdown">
+                <li><a href="#">All Products</a></li>
+                <li><a href="#">New Product</a></li>
+                <li><a href="#">Categories</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+    <div class="requests">
+      <h1>Financial Requests</h1>
+      <div class="words">
+          <span class="blue">Home</span>
+          <i class="fa-solid fa-angle-right"></i>
+          <a href="Index.html">
+          <span class="blue">Financial Requests</span>
+          </a>
+          <i class="fa-solid fa-angle-right"></i>
+          <span>Show</span>
+      </div>
+  </div>
+
+    <div class="form-container">
+        <h2>Create New Financial Request</h2>
+        <form>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="customer">Customer Name</label>
+              <input type="text" id="customer" name="customer">
+            </div>
+            <div class="form-group">
+              <label for="accountant">Accountant Name</label>
+              <input type="text" id="accountant" name="accountant">
+            </div>
+            <div class="form-group">
+              <label for="engineer">Project Engineer Name</label>
+              <input type="text" id="engineer" name="engineer">
+            </div>
+            <div class="form-group">
+              <label for="collection-status">Status of Collection</label>
+              <input type="text" id="collection-status" name="collection-status">
+            </div>
+            <div class="form-group">
+              <label for="responsibility">Responsibility for Collection</label>
+              <input type="text" id="responsibility" name="responsibility">
+            </div>
+            <div class="form-group">
+              <label for="inv-date">Invoice Date</label>
+              <input type="date" id="inv-date" name="inv-date">
+            </div>
+            <div class="form-group">
+              <label for="due-date">Payment Due Date</label>
+              <input type="date" id="due-date" name="due-date">
+            </div>
+            <div class="form-group">
+              <label for="so-code">Sales Order Code</label>
+              <input type="text" id="so-code" name="so-code">
+            </div>
+            <div class="form-group">
+              <label for="inv-code">Invoice Code</label>
+              <input type="text" id="inv-code" name="inv-code">
+            </div>
+            <div class="form-group">
+              <label for="reference">Reference Number</label>
+              <input type="text" id="reference" name="reference">
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="submit-btn">Submit</button>
+            <button type="button" class="cancel-btn">Cancel</button>
+          </div>
+        </form>
+      </div>
+      
+    <footer>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </footer>
+
+    <script src="js/all.min.js"></script>
+</body>
+</html>

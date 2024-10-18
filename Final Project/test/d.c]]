@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+string find_min_number(int sum) {
+    string result;
+    for (int digit = 9; digit > 0; digit--) {
+        if (sum >= digit) {
+            result = char(digit + '0') + result;
+            sum -= digit;
+        }
+    }
+    return result;
+}
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        int sum;
+        cin >> sum;
+        cout << find_min_number(sum) << endl;
+    }
+    return 0;
+}
